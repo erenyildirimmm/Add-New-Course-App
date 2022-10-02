@@ -1,0 +1,48 @@
+* {
+    color: #fff;
+}
+body {
+    background-color: #2a2b32;
+}
+nav {
+    box-shadow:  0 5px 20px 0 rgba(52, 97, 247, 0.2) !important;
+}
+nav .navbar-brand {
+    font-family: "Abril Fatface", cursive;
+    margin: auto;
+    color: #fff;
+    font-size: 30px;
+}
+#course-list tr td {
+    color: #fff;
+}
+#course-list tr td img {
+    border-radius: 5px;
+}
+input:focus {
+    box-shadow:  0 5px 20px 0 rgba(52, 97, 247, 0.2) !important;
+}
+.card {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6BA9DF;
+}
+.card h1 {
+    font-family: "Abril Fatface", cursive;
+}
+.card p {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .card {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #6BA9DF;
+        margin-top: 20px;
+    }
+}
